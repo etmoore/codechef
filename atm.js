@@ -6,7 +6,7 @@ var balance = parseFloat(process.argv[3]);
 
 var atm = function(withdrawal, balance) {
   var fee = 0.5
-  if (withdrawal > balance) {
+  if (withdrawal + 0.5 > balance) {
     return balance;
   } else if (withdrawal % 5 == 0) {
     balance -= (withdrawal + fee)
