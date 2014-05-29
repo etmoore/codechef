@@ -1,3 +1,5 @@
+# Problem: http://www.codechef.com/problems/HS08TEST
+
 puts "How much would you like to withdraw?"
 withdrawal = gets.to_f.round(2)
 puts "What is your current balance?"

@@ -1,10 +1,8 @@
+// Problem: http://www.codechef.com/problems/HS08TEST
+// Instructions: Run in node. Input withdrawal amount and balance amount from the command line (arg 2 and 3).
 
-// console.log(process.argv)
-//console.log("How much would you like to withdrawal?");
 var withdrawal = parseFloat(process.argv[2]);
 var balance = parseFloat(process.argv[3]);
-//console.log("What is your current balance?");
-//var balance = prompt();
 
 var atm = function(withdrawal, balance) {
   var fee = 0.5
